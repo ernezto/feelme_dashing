@@ -25,7 +25,7 @@ top_exchanges: ! 'data: {"series":[{"data":[65,220,315,522,632,941,979]}],"categ
 
 
 '
-Today: ! 'data: {"current":1,"last":1,"id":"Today","updatedAt":1384356993}
+Today: ! 'data: {"current":1,"last":1,"id":"Today","updatedAt":1384365234}
 
 
 '

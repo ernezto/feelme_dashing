@@ -3,6 +3,8 @@
 #= require dashing.js
 
 #= require_directory .
+#= require modules/highcharts
+#= require modules/gray
 #= require_tree ../../widgets
 #= require modules/exporting
 console.log("Yeah! The dashboard has started!")
