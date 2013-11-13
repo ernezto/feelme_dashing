@@ -1,43 +1,31 @@
 ---
-valuation: ! 'data: {"current":27,"last":14,"id":"valuation","updatedAt":1383263778}
+buzzwords: ! 'data: {"items":[{"label":"Pivoting","value":5},{"label":"Streamlininess","value":7},{"label":"Exit
+  strategy","value":5},{"label":"Synergy","value":1},{"label":"Leverage","value":4},{"label":"Turn-key","value":1},{"label":"Enterprise","value":3},{"label":"Web
+  2.0","value":1},{"label":"Paradigm shift","value":1}],"id":"buzzwords","updatedAt":1384274024}
 
 
 '
-karma: ! 'data: {"current":136039,"last":112690,"id":"karma","updatedAt":1383263778}
+convergence: ! 'data: {"points":[{"x":29,"y":20},{"x":30,"y":3},{"x":31,"y":13},{"x":32,"y":20},{"x":33,"y":7},{"x":34,"y":14},{"x":35,"y":26},{"x":36,"y":13},{"x":37,"y":13},{"x":38,"y":11}],"id":"convergence","updatedAt":1384274024}
 
 
 '
-synergy: ! 'data: {"value":96,"id":"synergy","updatedAt":1383263778}
+valuation: ! 'data: {"current":68,"last":31,"id":"valuation","updatedAt":1384274024}
 
 
 '
-convergence: ! 'data: {"points":[{"x":132,"y":13},{"x":133,"y":28},{"x":134,"y":25},{"x":135,"y":9},{"x":136,"y":4},{"x":137,"y":3},{"x":138,"y":37},{"x":139,"y":35},{"x":140,"y":5},{"x":141,"y":32}],"id":"convergence","updatedAt":1383229125}
+karma: ! 'data: {"current":68880,"last":76311,"id":"karma","updatedAt":1384274024}
 
 
 '
-buzzwords: ! 'data: {"items":[{"label":"Streamlininess","value":19},{"label":"Synergy","value":11},{"label":"Exit
-  strategy","value":28},{"label":"Leverage","value":5},{"label":"Web 2.0","value":17},{"label":"Enterprise","value":8},{"label":"Pivoting","value":5},{"label":"Paradigm
-  shift","value":4},{"label":"Turn-key","value":7}],"id":"buzzwords","updatedAt":1383263778}
+synergy: ! 'data: {"value":68,"id":"synergy","updatedAt":1384274024}
 
 
 '
-welcome: ! 'data: {"label":"Testing","value":"34","id":"welcome","updatedAt":1383160853}
+top_exchanges: ! 'data: {"series":[{"data":[65,220,315,522,632,941,979]}],"categories":["NASDAQ","NYSE","SGX","LSE","AMEX","SEHK","TMX"],"color":"#efad1b","id":"top_exchanges","updatedAt":1384273806}
 
 
 '
-pie: ! 'data: {"label":"Testing","value":"34","id":"pie","updatedAt":1383160949}
-
-
-'
-bookmarks_frecuency: ! 'data: {"value":[{"label":"Hello world","value":89},{"label":"Testing","value":11}],"id":"bookmarks_frecuency","updatedAt":1383162428}
-
-
-'
-bookmarks_frequency: ! 'data: {"value":[{"label":"Hello world","value":10},{"label":"Testing","value":90}],"id":"bookmarks_frequency","updatedAt":1383263779}
-
-
-'
-happiness: ! 'data: {"points":[12,26],"id":"happiness","updatedAt":1383263779}
+Today: ! 'data: {"current":1,"last":1,"id":"Today","updatedAt":1384356993}
 
 
 '
