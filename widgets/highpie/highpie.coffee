@@ -6,9 +6,10 @@ class Dashing.Highpie extends Dashing.Widget
       @chart = new Highcharts.Chart(
         chart:
           renderTo: $(container)[0]
-          plotBackgroundColor:""
+          plotBackgroundColor:"#FF5F00"
           plotBorderWidth: 0
-          plotShadow: true
+          plotShadow: false
+          backgroundColor:"#FF5F00"
 
          title:
               text: "HOY"
@@ -30,13 +31,11 @@ class Dashing.Highpie extends Dashing.Widget
             name: "Porcentaje"
             data: [{
               name: "Feliz"
-              y: 10,
-              color: "red"},
+              y: 10},
               {name: "No Feliz"
               y: 40
               sliced: true
-              selected: true
-              color: "blue"}]
+              selected: true}]
           ]
       )
  

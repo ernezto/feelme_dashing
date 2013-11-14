@@ -7,6 +7,7 @@ class Dashing.Highbar extends Dashing.Widget
         chart:
           renderTo: $(container)[0]
           type: "column"
+          backgroundColor: "#00A67C"
 
         title:
           text: "Ultimas Semanas"
@@ -36,12 +37,10 @@ class Dashing.Highbar extends Dashing.Widget
 
         series: [
           {name: "Feliz"
-          data: [70, 60, 85],
-          color: "red"
+          data: [70, 60, 85]
           },
           {name: "Triste"
           data: [40, 15, 20]
-          color: "blue"
           }
         ]
       )

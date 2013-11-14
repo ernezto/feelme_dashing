@@ -7,6 +7,7 @@ class Dashing.Higharea extends Dashing.Widget
         chart:
           renderTo: $(container)[0]
           type: "area"
+          backgroundColor: "#1049A9"
 
         title:
           text: "ESTA SEMANA"
@@ -43,12 +44,10 @@ class Dashing.Higharea extends Dashing.Widget
 
         series: [
           {name: "Triste"
-          data: [2, 1, 2, 0, 4]
-          color: "blue" 
+          data: [2, 1, 2, 0, 4] 
           },
           {name: "Feliz"
           data: [4, 5, 4, 6, 2]
-          color: "red"
           }]      
       )
 
