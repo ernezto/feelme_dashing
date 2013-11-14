@@ -1,22 +1,22 @@
 class Dashing.Highpie extends Dashing.Widget
  
   createChart: (series, categories, color) ->
-    container = $(@node).find('.highchart-container')
+    container = $(@node).find('.highpie-container')
     if $(container)[0]
       @chart = new Highcharts.Chart(
         chart:
           renderTo: $(container)[0]
-          plotBackgroundColor:"#FF5F00"
+          plotBackgroundColor:"#009999"
           plotBorderWidth: 0
           plotShadow: false
-          backgroundColor:"#FF5F00"
+          backgroundColor:"#009999"
 
          title:
               text: "HOY"
 
          tooltip:
               pointFormat: "{series.name}: <b>{point.percentage:.1f}%</b>"
-         
+
          plotOptions:
               pie:
                   allowPointSelect: true

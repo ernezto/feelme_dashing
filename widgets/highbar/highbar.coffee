@@ -1,13 +1,13 @@
 class Dashing.Highbar extends Dashing.Widget
 
   createChart: (series, categories, color) ->
-    container = $(@node).find('.highchart-container')
+    container = $(@node).find('.highbar-container')
     if $(container)[0]
       @chart = new Highcharts.Chart(
         chart:
           renderTo: $(container)[0]
           type: "column"
-          backgroundColor: "#00A67C"
+          backgroundColor: "#008500"
 
         title:
           text: "Ultimas Semanas"
