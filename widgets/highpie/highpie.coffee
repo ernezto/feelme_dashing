@@ -27,15 +27,19 @@ class Dashing.Highpie extends Dashing.Widget
                          "<b>" + @percentage + " %"
 
          series: [
-            type: "pie"
-            name: "Porcentaje"
-            data: [{
-              name: "Feliz"
-              y: 10},
-              {name: "No Feliz"
-              y: 40
-              sliced: true
-              selected: true}]
+          type: "pie"
+          name: "Porcentaje"
+          data: [
+              {
+                name: "Feliz"
+                y: parseInt(@get('happy_value'))
+              },
+              {
+                name: "Triste"
+                y: parseInt(@get('unhappy_value'))
+                sliced: true
+                selected: true
+              }]
           ]
       )
  

@@ -13,7 +13,7 @@ valuation: ! 'data: {"current":68,"last":31,"id":"valuation","updatedAt":1384274
 
 
 '
-karma: ! 'data: {"current":68880,"last":76311,"id":"karma","updatedAt":1384274024}
+karma: ! 'data: {"current":100,"id":"karma","updatedAt":1384458643}
 
 
 '
@@ -25,7 +25,11 @@ top_exchanges: ! 'data: {"series":[{"data":[65,220,315,522,632,941,979]}],"categ
 
 
 '
-Today: ! 'data: {"current":1,"last":1,"id":"Today","updatedAt":1384442413}
+Today: ! 'data: {"current":1,"last":1,"id":"Today","updatedAt":1384467568}
+
+
+'
+highpie: ! 'data: {"happy_value":1,"unhappy_value":1,"id":"highpie","updatedAt":1384467568}
 
 
 '
