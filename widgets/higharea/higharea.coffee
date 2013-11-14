@@ -7,7 +7,7 @@ class Dashing.Higharea extends Dashing.Widget
         chart:
           renderTo: $(container)[0]
           type: "area"
-          backgroundColor: "#1049A9"
+          backgroundColor: "#FF9640"
 
         title:
           text: "ESTA SEMANA"
