@@ -1,7 +1,7 @@
 class Dashing.Highpie extends Dashing.Widget
  
   createChart: (series, categories, color) ->
-    container = $(@node).find('.highchart-container')
+    container = $(@node).find('.highpie-container')
     if $(container)[0]
       @chart = new Highcharts.Chart(
         chart:
@@ -16,7 +16,7 @@ class Dashing.Highpie extends Dashing.Widget
 
          tooltip:
               pointFormat: "{series.name}: <b>{point.percentage:.1f}%</b>"
-         
+
          plotOptions:
               pie:
                   allowPointSelect: true

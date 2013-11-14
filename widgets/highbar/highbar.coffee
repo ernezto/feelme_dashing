@@ -1,7 +1,7 @@
 class Dashing.Highbar extends Dashing.Widget
 
   createChart: (series, categories, color) ->
-    container = $(@node).find('.highchart-container')
+    container = $(@node).find('.highbar-container')
     if $(container)[0]
       @chart = new Highcharts.Chart(
         chart:
