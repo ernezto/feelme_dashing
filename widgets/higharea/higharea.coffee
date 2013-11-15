@@ -42,7 +42,14 @@ class Dashing.Higharea extends Dashing.Widget
               lineWidth: 1
               lineColor: "#666666"
 
-        series: @get('series')
+        series: [{
+          name: "Triste"
+          data: @get('unhappy_values')
+        },
+          {
+            name: "Feliz"
+            data: @get('happy_values')
+          }]
       )
 
   onData: (data) ->
