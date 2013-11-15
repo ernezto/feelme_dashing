@@ -16,7 +16,7 @@ class Dashing.Highbar extends Dashing.Widget
           text: ""
 
         xAxis:
-          categories: ["una", "dos", "tres"]
+          categories: ["hace una semana", "hace dos semanas", "have tres semanas"]
 
         yAxis:
           min: 0

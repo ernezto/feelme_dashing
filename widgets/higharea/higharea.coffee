@@ -13,7 +13,7 @@ class Dashing.Higharea extends Dashing.Widget
           text: "ESTA SEMANA"
 
         subtitle:
-          text: "15 OCT - 20 OCT"
+          text: "11 NOV - 15 NOV"
 
         xAxis:
           categories: ["LUN", "MAR", "MIE", "JUE", "VIE"]

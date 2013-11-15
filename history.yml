@@ -25,11 +25,15 @@ top_exchanges: ! 'data: {"series":[{"data":[65,220,315,522,632,941,979]}],"categ
 
 
 '
-Today: ! 'data: {"current":1,"last":1,"id":"Today","updatedAt":1384532546}
+Today: ! 'data: {"current":1,"last":1,"id":"Today","updatedAt":1384539896}
 
 
 '
-highpie: ! 'data: {"happy_value":9,"unhappy_value":1,"id":"highpie","updatedAt":1384532092}
+highpie: ! 'data: {"happy_value":10,"unhappy_value":3,"id":"highpie","updatedAt":1384539681}
+
+
+'
+leyend: ! 'data: {"items":[{"name":"Triste"}],"id":"leyend","updatedAt":1384537264}
 
 
 '
