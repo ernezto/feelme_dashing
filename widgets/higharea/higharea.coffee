@@ -42,14 +42,10 @@ class Dashing.Higharea extends Dashing.Widget
               lineWidth: 1
               lineColor: "#666666"
 
-        series: [
-          {name: "Triste"
-          data: [2, 1, 2, 0, 4] 
-          },
-          {name: "Feliz"
-          data: [4, 5, 4, 6, 2]
-          }]      
+        series: @get('series')
       )
 
   onData: (data) ->
+    console.log(data)
+    console.log(data.series)
     @createChart(data.series, data.categories, data.color)
