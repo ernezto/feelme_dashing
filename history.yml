@@ -1,3 +1,4 @@
+---
 buzzwords: ! 'data: {"items":[{"label":"Pivoting","value":5},{"label":"Streamlininess","value":7},{"label":"Exit
   strategy","value":5},{"label":"Synergy","value":1},{"label":"Leverage","value":4},{"label":"Turn-key","value":1},{"label":"Enterprise","value":3},{"label":"Web
   2.0","value":1},{"label":"Paradigm shift","value":1}],"id":"buzzwords","updatedAt":1384274024}
@@ -24,10 +25,11 @@ top_exchanges: ! 'data: {"series":[{"data":[65,220,315,522,632,941,979]}],"categ
 
 
 '
-Today: ! 'data: {"current":1,"last":1,"id":"Today","updatedAt":1384467568}
+Today: ! 'data: {"current":1,"last":1,"id":"Today","updatedAt":1384532546}
 
 
 '
-highpie: ! 'data: {"happy_value":1,"unhappy_value":1,"id":"highpie","updatedAt":1384467568}
+highpie: ! 'data: {"happy_value":9,"unhappy_value":1,"id":"highpie","updatedAt":1384532092}
+
 
 '

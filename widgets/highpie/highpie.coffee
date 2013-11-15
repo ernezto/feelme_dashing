@@ -22,9 +22,9 @@ class Dashing.Highpie extends Dashing.Widget
                   allowPointSelect: true
                   dataLabels:
                       enabled: true
-                      color: "#000000"
                       formatter: ->
-                         "<b>" + @percentage + " %"
+                        "<b>" + Math.round(@percentage) + " %"
+                  showInLegend: true
 
          series: [
           type: "pie"
